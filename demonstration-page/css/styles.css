@@ -1,0 +1,46 @@
+body {
+  font-family: 'open Sans Condensed', sans-serif; /*"Arial", "Helvetica", "Arial Bold", sans-serif;*/
+  font-size: 16pt; /* 16px; 16%; 1em; 1rem*/
+
+}
+
+div {
+  font-size: 32px;
+  color: green;
+}
+
+h1 {
+  font-size: 2em;
+  color: rgba(255,0,0,.5); /* ff000, red */
+  font-weight: normal; /* 100, 200, 400, 500, 700, 900 */
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline; /* none, overline, line-through */
+}
+
+p {
+  text-indent: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-align: right; /* center, justify*/
+}
+
+div2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div3 {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+sup.superduper {
+  color: green;
+}
