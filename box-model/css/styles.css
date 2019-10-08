@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://wudesign.me/resources/html_tracing/images/bg.png);
+  background-position: center top;
+  min-height: 2380px;
+}
+.intro {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  font-size: 350%;
+  text-align: center;
+  background-size: cover;
+  background-image:linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ), url("https://leediana.github.io/iffall2019/box-model/images/intro-image.jpg");
+  padding-top: 130px;
+  padding-bottom:159px;
+}
+
+h1{
+  margin: 0;
+}
+
+section> div{
+  width: 960px;
+  margin:auto;
+  padding: 20px 0;
+}
+
+.text-intro{
+  margin: auto;
+}
+
+
+.text-intro h2 {
+  font-size: 50%;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  size: 80%;
+}
+
+.first-section{
+  background-color: #333333;
+  padding-bottom: 60px;
+}
+
+.first-section h3 {
+  font-size: 300%;
+}
+
+.first-section-text p {
+  color: white;
+}
+
+#first-section-image{
+  float:right;
+  height: 300px;
+  width:400px;
+  padding-top: 45px;
+}
+
+.second-section {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: red;
+  font-size: 300%;
+  background-size: cover;
+}
+
+.second-section h3{
+  margin: 0;
+
+}
+
+.second-section-text h4{
+  margin: 0;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5{
+  font-size: 20px;
+  line-height: 1.4;
+  margin:0;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+section.second-section{
+  padding-bottom: 50px;
+  background-color: pink;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 24px;
+}
+
+
+li img {
+  height: 150px;
+  width:200px;
+  float:left;
+  margin-right: 12px;
+}
+
+.ul-thumbnails li{
+  display: inline-block;
+  height: 170px;
+  width: 50%;
+}
+
+
+.second-section-text p {
+  font-size: 16px;
+}
+
+
+.third-section{
+  font-family: 'Archivo Narrow', sans-serif;
+  background-color: #333333;
+  color: white;
+  font-size: 250%;
+  text-align: center;
+  background-size: cover;
+}
+
+
+.third-section-text p {
+  font-size: 60%;
+  padding: 20px;
+}
