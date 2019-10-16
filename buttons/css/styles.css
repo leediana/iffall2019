@@ -1,0 +1,398 @@
+
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main_content {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.button_container {
+  border: 1px solid #ddd;
+  margin: 0 10px 10px 0;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+#btn_gucci {
+  display: inline-block;
+  height: 75px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 80px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_gucci:hover {
+  /* background-color: #fff;
+  border: 2px solid #000;
+  color: #000; */
+  animation: spin 0.5s linear 1;
+}
+
+@keyframes spin {
+  0%{
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+
+#btn_coach1 {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-left: 75px;
+  margin-top: 75px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+}
+
+#btn_coach1:hover {
+}
+
+#btn_coach2 {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-left: 75px;
+  margin-top: 75px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+}
+
+#btn_coach2:hover {
+  animation: move-left 1.7s linear infinite;
+}
+
+@keyframes move-left {
+  0%{
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(-120px);
+  }
+}
+
+#btn_armani {
+  display: inline-block;
+  height: 75px;
+  margin: auto;
+  margin-top: 45px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_armani:hover {
+  animation: bounce 0.3s ease-in infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+
+#btn_chanel {
+  display: inline-block;
+  height: 75px;
+  margin: auto;
+  margin-top: 45px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_chanel:hover {
+  filter: hue-rotate(270deg);
+  opacity: 0.5;
+}
+}
+
+@keyframes move-left {
+  0%{
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(-120px);
+  }
+}
+
+#btn_hermes-orange {
+  display: inline-block;
+  height: 75px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 90px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_hermes-orange:hover {
+  filter: hue-rotate(900deg);
+  color: black;
+}
+
+
+#btn_louis-vuitton {
+  display: block;
+  height: 75px;
+  margin: auto;
+  margin-top: 90px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+
+#btn_louis-vuitton:hover {
+  filter: blur(10px);
+}
+
+
+
+
+/* #btn_twitter {
+  display: inline-block;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 105px;
+  padding: 10px 30px 0 30px;
+  background-color: #56cdf1;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+} */
+
+
+
+#btn_rolex1 {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  margin-left: 75px;
+  margin-top: 75px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+}
+
+#btn_rolex1:hover {
+}
+
+#btn_rolex2 {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  margin-left: 75px;
+  margin-top: 75px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+}
+
+#btn_rolex2:hover {
+  animation: shake 1s linear infinite;
+}
+@keyframes shake{
+  10%, 90% {transform: translate3d(-1px, 0, 0);}
+
+  20%, 80% {transform: translate3d(2px, 0, 0);}
+
+  30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
+
+  40%, 60% {transform: translate3d(4px, 0, 0);}
+}
+
+#btn_dior {
+  display: inline-block;
+  height: 55px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: white;
+  position: relative;
+  top: 30%;
+  margin: auto;
+  padding: 10px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+  -webkit-box-shadow: 1px 5px 6px 0px rgba(50, 50, 50, 0.36);
+-moz-box-shadow:    1px 5px 6px 0px rgba(50, 50, 50, 0.36);
+box-shadow:         1px 5px 6px 0px rgba(50, 50, 50, 0.36);
+}
+
+#btn_dior:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.81);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.81);
+  box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.81);
+}
+
+
+
+#btn_tiffany{
+  display: inline-block;
+  height: 25px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 80px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+  background: #0abab5; /* Old browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+#btn_tiffany:hover {
+  border-radius: 30px;
+}
+
+#btn_cartier {
+  display: block;
+  height: 45px;
+  margin: auto;
+  margin-top: 90px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+
+#btn_cartier:hover {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+
+#btn_burberry {
+  display: block;
+  height: 85px;
+  margin: auto;
+  margin-top: 90px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+
+#btn_burberry:hover {
+  animation: move-left 0.4s linear infinite;
+}
+
+@keyframes move-left {
+  0%{
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(-120px);
+  }
+}
+
+
+#btn_ysl {
+  display: inline-block;
+  height: 95px;
+  margin: auto;
+  margin-top:65px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_ysl:hover {
+  -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+          transform: scale(1.3);
+}
+}
+
+@keyframes move-left {
+  0%{
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(-120px);
+  }
+}
+
+
+#btn_versace {
+  display: inline-block;
+  height: 105px;
+  margin: auto;
+  margin-top: 95px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_versace:hover {
+  transform: rotateY(360deg);
+	transition: 2s;
+}
+
+
+#btn_prada {
+  display: inline-block;
+  height: 35px;
+  margin: auto;
+  margin-top: 45px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_prada:hover {
+  transform: rotate(20deg); 
+}
+
+#btn_fendi {
+  display: inline-block;
+  width: 250px;
+  margin: auto;
+  margin-top: 45px;
+  /* padding: 10px 40px 0 40px; */
+  text-decoration: none;
+}
+
+#btn_fendi:hover {
+  animation: spin 0.5s linear 1;
+}
+
+@keyframes spin {
+  0%{
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
