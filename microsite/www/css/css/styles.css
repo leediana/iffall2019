@@ -1,0 +1,295 @@
+html,body{
+  height: 100%;
+  font-family: "Roboto";
+  margin: 0px;
+  /*overflow: hidden;*/
+}
+#intro{
+  height: 100%;
+  background-position: center;
+  background-image: url(../images/intro.png);
+  background-size: cover;
+  margin-left: auto;
+  background-repeat:no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1{
+font-family: 'Oswald', sans-serif;
+font-weight: 1300;
+margin-bottom: 18px;
+}
+
+h2{
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 35px;
+margin-top: 18px;
+}
+
+.title-text{
+ margin-left: 960px;
+ padding-top: 100px;
+ font-size: 40px;
+}
+
+
+#figure{
+  height: 100vh;
+  bottom: -50px;
+  position: absolute;
+  left: 50px;
+}
+#figure:hover {
+animation: grow 0.5s linear 1;
+}
+@keyframes grow {
+  0%{
+    transform:scale(1);
+  }
+  50% {
+    transform:scale(1.03);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+.topnav{
+  font-family: 'Ubuntu', sans-serif;
+  text-color: white;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  height: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  /* float: left; */
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+  display: inline-block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #E93838;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #E93838;
+}
+.home{
+  font-family: 'Oswald', sans-serif;
+
+}
+#intro-2{
+  background-color: #E93838;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.first-text{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 18px;
+  position: absolute;
+  left: 15%;
+  bottom: 35%;
+}
+.description{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#history-page{
+  background-color: orange;
+  height: 650vh;
+  width: 100vw;
+}
+
+.history-text{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.history-first-text{
+  color: white;
+  width: 56%;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  position: relative;
+  left: 0%;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  font-family: "Oswald";
+}
+
+#history-1{
+ width: 300px;
+ padding: 20px;
+ position: relative;
+ float: right;
+ bottom: 20px;
+}
+
+#history-2{
+ padding: 20px;
+ width: 400px;
+ position: relative;
+ float: right;
+ bottom: 0px;
+}
+
+#history-3{
+ padding: 20px;
+ width: 400px;
+ position: relative;
+ float: left;
+}
+#history-4{
+ padding: 20px;
+ width: 400px;
+ position: relative;
+ float: left;
+}
+
+#history-paragraph-2 {
+  height: auto;
+}
+
+
+#evolution-page{
+  background-color: #4C63F1;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.evolution-first-text{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 56%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#evolution-image{
+ width: 400px;
+ padding:40px;
+ position: relative;
+ float: right;
+ bottom:10px;
+ right: 50px;
+}
+
+.title{
+  color:white;
+}
+
+#terminology-page{
+  background-color: #F0DA4F;
+  height: 180vh;
+  width:100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.terminology-text{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  color: white;
+  width: 70%;
+  margin-left: 20px;
+  position: relative;
+  top: 40px;
+
+}
+
+
+
+.terminology-first-text{
+  color: white;
+
+}
+
+.image-text{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#terminology-image{
+  width: 560px;
+  padding: 20px;
+}
+
+#styling-page{
+  background-color: #E93838;
+  height: 120vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.styling-first-text{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 56%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#styling-paragraph-1{
+  margin-bottom: 20px;
+}
+#styling-paragraph-2{
+  width: 56%;
+  float: right;
+
+}
+
+#styling-image-1{
+ width: 300px;
+ padding: 20px;
+ position: relative;
+ float: right;
+ bottom: 5px;
+}
+#styling-image-2{
+ width: 300px;
+ padding-right: 20px;
+ position: relative;
+ float: left;
+ bottom: 0px;
+ top:80px;
+}
