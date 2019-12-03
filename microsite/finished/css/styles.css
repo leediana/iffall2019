@@ -67,7 +67,7 @@ animation: grow 0.5s linear 1;
 }
 
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
   height: 50px;
 }
@@ -93,7 +93,10 @@ animation: grow 0.5s linear 1;
 .topnav a.active {
   color: #E93838;
 }
+.home{
+  font-family: 'Oswald', sans-serif;
 
+}
 #intro-2{
   background-color: #E93838;
   height: 100vh;
